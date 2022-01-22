@@ -1,0 +1,10 @@
+#lang racket
+(define (clone a n)
+  (define lst '())
+  (if (= n 0)
+      lst
+      (cons a (clone a (- n 1)))
+  )   
+)
+
+(clone 3 7)

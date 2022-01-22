@@ -1,0 +1,8 @@
+Error located in Utility.java
+Donte Russo has an invalid rank. (Not between 1 to 4 or not an integer)
+Error located in Utility.java
+Madiha Blundell has an invalid rank. (Not between 1 to 4 or not an integer)
+Error located in Utility.java
+Ruairi Martin has an invalid rank. (Not between 1 to 4 or not an integer)
+Error located in Utility.java
+Sohaib Orozco has an invalid rank. (Not between 1 to 4 or not an integer)

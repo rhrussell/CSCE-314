@@ -1,0 +1,7 @@
+; Name: Ryan Russell
+; Partner Name: Saqib Domki
+; Assignment: Lab1 - SchemeIntro1
+
+display("Ryan Russell\n")
+display("Saqib Domki")
+(exit)

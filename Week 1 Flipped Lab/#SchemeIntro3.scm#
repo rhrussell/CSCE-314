@@ -1,0 +1,17 @@
+; Name: Ryan Russell
+; Partner Name: Saqib Domki
+; Assignment: Lab1 - SchemeIntro3
+; Date: 5/29/2020
+
+;(define (fact n) (if (< n 2) 1 (* n (fact (- n 1)))))
+;(trace fact)
+;(fact 5)
+
+;(define (fact n) (if (< n 2) 1 (* n (fact (- n 1)))))
+
+(trace fact)
+
+(fact 5)(define (fib n) (if (= n 0) (0)) (if (= n 1) (1)) (if ( > n 1) 1 (+ fib(- n 1) fib(-n 2))))
+(trace fib)
+(fib 7)
+(exit)

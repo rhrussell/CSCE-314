@@ -1,0 +1,17 @@
+; Name:
+; Partner's Name:
+; Email:
+; Date:
+; Class:
+; Lab:
+
+(define (is-positive value)
+ (if (>= value 0) 
+     #t
+     #f)
+)
+
+(display (is-positive 5))
+(newline)
+(display (is-positive -5))
+(exit)

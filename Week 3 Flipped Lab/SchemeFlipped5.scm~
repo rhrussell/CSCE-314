@@ -1,0 +1,25 @@
+; Name: Ryan Russell
+; Partner's Name: Saqib Domki
+; Email: rhrussell@tamu.edu
+; Date: 6/14/20
+; Lab: Week 3 Question 5
+
+(define (reverse lst)
+  (if (null? lst)
+      '()
+      (cons (reverse (cdr lst)) (car lst)))
+)
+
+(define (listmaker n)
+;  (cond 
+ ;  [(<= n 0) '()]
+  ; (else (cons (- n 1) (listmaker (- n 1)))))
+(range 0 (- n 1))
+)
+
+(define (main)
+  (display (listmaker 5))
+)
+
+(main)
+(exit)
